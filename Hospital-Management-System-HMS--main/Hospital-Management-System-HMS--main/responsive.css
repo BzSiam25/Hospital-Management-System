@@ -1,0 +1,45 @@
+/* responsive.css */
+/* Mobile view styles */
+@media screen and (max-width: 991px) {
+
+    /* Navbar adjustments */
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-menu {
+        margin-top: 20px;
+    }
+
+    /* Card adjustments */
+    .card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .reg {
+        text-align: center;
+    }
+}
+
+/* desktop.css */
+/* Desktop view styles */
+/* Adjust the width of the container or other elements as needed */
+.container {
+    max-width: 1200px;
+    /* Example: Set a maximum width for the container */
+    margin: 0 auto;
+    /* Center the container horizontally */
+}
+
+/* Additional styling for specific elements */
+.card {
+    /* Add any specific styling for cards in desktop view */
+}
+
+/* Footer adjustments */
+#footer {
+    text-align: center;
+    padding: 20px;
+}
